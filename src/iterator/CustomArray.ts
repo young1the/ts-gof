@@ -16,6 +16,6 @@ export default class CustomArray implements Aggregator<Item> {
     }
 
     iterator(): CustomIterator<Item> {
-        throw new ArrayIterator(this);
+        return new ArrayIterator(this);
     }
 }

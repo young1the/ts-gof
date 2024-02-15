@@ -1,5 +1,6 @@
 import CustomIterator from "./CustomIterator";
 import CustomArray from "./CustomArray";
+import Item from "./Item";
 
 export default class ArrayIterator implements CustomIterator<Item> {
 
@@ -13,7 +14,7 @@ export default class ArrayIterator implements CustomIterator<Item> {
         return ++this.index < this.array.count;
     }
     current(): Item {
-        throw this.array.getItem(this.index);
+        return this.array.getItem(this.index);
     }
 
 }
