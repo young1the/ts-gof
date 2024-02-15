@@ -1,7 +1,7 @@
 import { CustomArray, Item } from "../iterator";
 import { describe, test, expect } from '@jest/globals'
 
-describe('CustomArray 테스트', () => {
+describe('Iterator', () => {
     const items = [
         new Item("쿠크다스", 2500),
         new Item("새우깡", 1200),
