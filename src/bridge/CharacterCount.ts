@@ -5,7 +5,7 @@ export default class CharacterCount extends Draft {
         super(title, author, content);
     }
 
-    getCharacterCount(): number {
+    public getCharacterCount(): number {
         let count = 0;
         count += this.getTitle().length;
         count += this.getAuthor().length;
