@@ -6,5 +6,5 @@ export default class OddBettingPlayer extends Player {
     update(diceNumber: number): void {
         this.winning = diceNumber % 2 === 1;
     }
-
+    
 }

@@ -1,6 +1,6 @@
 import { describe, test, expect } from "@jest/globals";
-import Folder from "../Composite/Folder";
-import File from "../Composite/File";
+import Folder from "../composite/Folder";
+import File from "../composite/File";
 
 describe("11.Composite", () => {
     const root = new Folder("루트");
